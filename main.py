@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+    # example of comments
     return render_template('index.html')
 
 
